@@ -1,0 +1,76 @@
+<div class="container">
+    <section class="row mt-3">
+        <div class="col-12">
+            <h1>House Listings</h1>
+        </div>
+    </section>
+
+    <section class="row my-3">
+        <div class="col-12 col-md-8 m-auto">
+            <div class="bg-light rounded shadow-lg p-4">
+                <form onsubmit="app.HousesController.createHouse()">
+
+                    <div class="mb-3">
+                        <label for="houseStreet">Street</label>
+                        <input id="houseStreet" name="street" type="text" required minlength="5" maxlength="30">
+
+                        <label for="houseCity">City</label>
+                        <input id="houseCity" name="city" type="text" required minlength="2" maxlength="15">
+
+                        <label for="houseState">State</label>
+                        <input id="houseState" name="state" type="text" required minlength="2" maxlength="2">
+
+                        <label for="houseZip">Zipcode</label>
+                        <input id="houseZip" name="zip" type="number" required minlength="5" maxlength="5">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="houseForSale">For Sale/Rent</label>
+                        <input id="houseForSale" name="isForSale" type="text" required minlength="3" maxlength="15">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="housePrice">Price</label>
+                        <input id="housePrice" name="price" type="text" required minlength="3" maxlength="15">
+                    </div>
+                    <div class="mb-3">
+                        <label for="houseYear">Year</label>
+                        <input id="houseYear" name="year" type="text" required minlength="3" maxlength="15">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="houseBuilder">Builder</label>
+                        <input id="houseBuilder" name="builder" type="text" required minlength="3" maxlength="15">
+                    </div>
+                    <div class="mb-3">
+                        <label for="propertyAcreage">Acreage</label>
+                        <input id="propertyAcreage" name="acreage" type="text" required minlength="3" maxlength="15">
+                    </div>
+                    <div class="mb-3">
+                        <label for="houseSquareFootage">SquareFeet</label>
+                        <input id="houseSquareFootage" name="squareFeet" type="text" required minlength="1"
+                            maxlength="5">
+                    </div>
+                    <div class="mb-3">
+                        <label for="houseBedrooms">Bedrooms</label>
+                        <input id="houseBedrooms" name="bedrooms" type="number" required minlength="1" maxlength="2">
+
+                        <label for="houseBathrooms">Bathrooms</label>
+                        <input id="houseBathrooms" name="bathrooms" type="number" required minlength="1" maxlength="2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="propertyCarSpaces">Total Car Spaces</label>
+                        <input id="propertyCarSpaces" name="totalCarSpaces" type="number" required minlength="1"
+                            maxlength="2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="houseFurnished">Furnished: Yes/No?</label>
+                        <input id="houseFurnished" name="isFurnished" type="text" required minlength="3" maxlength="15">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+</div>
