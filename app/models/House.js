@@ -17,7 +17,6 @@ export class House {
         this.isFurnished = data.isFurnished
         this.isRemodeled = data.isRemodeled
         this.isForClosed = data.isForClosed
-        this.hasPool = data.hasPool
         this.garageSpaces = data.garageSpaces
         this.description = data.description
         this.imgUrl = data.imgUrl
